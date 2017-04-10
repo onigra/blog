@@ -11,6 +11,10 @@ build:
         flags: --disableSitemap=true
 deploy:
   steps:
+    - script:
+        name: remove .DS_Store
+        code: |
+          rm public/.DS_Store
     - lukevivier/gh-pages:
         token: $GITHUB_PERSONAL_ACCESS_TOKEN
         basedir: public
