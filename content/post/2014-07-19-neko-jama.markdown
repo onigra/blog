@@ -1,0 +1,36 @@
+---
+categories: 猫
+comments: true
+slug: neko-jama
+date: 2014-07-19T21:50:52Z
+title: 猫がMacBookのキーボードの上で寝ようとするので困る
+
+---
+
+<iframe src="//instagram.com/p/qohZ02n9Xf/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+当たり前のように寝ようとするので本当に困る。動画見てる時とか、ゲームしてる時とか、楽器練習してる時とかに寝られると邪魔でしょうがない。twitterで空リプしちゃう時とかあるし。
+
+<!--more-->
+
+<iframe src="//instagram.com/p/qohCdhH9Wq/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+しょうがないのでキーボードロックするアプリを入れた。[KeyboardCleanTool](http://download.cnet.com/KeyboardCleanTool/3000-2094_4-75415546.html)っていうキーボード掃除する時ようのアプリがあったのでそれを入れた。
+
+アプリを起動しようとするとユニバーサルアクセスの許可を求められてアクセシビリティが起動するんだけど、Mervericksだとユニバーサルアクセスの許可はアクセシビリティじゃなくてセキュリティとプライバシーから設定する。それに気づかなくてちょっと嵌った。
+
+<iframe src="//instagram.com/p/qohL-gH9XB/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+写真はキーボードロックしてる時にとったもので問題無いっぽい。
+
+おまけ
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="ja"><p><a href="https://twitter.com/t_wada">@t_wada</a></p>&mdash; アンドロメダの異星人 (@nekogeruge_987) <a href="https://twitter.com/nekogeruge_987/statuses/483963987600498688">2014, 7月 1</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="ja"><p><a href="https://twitter.com/t_wada">@t_wada</a> すいません、猫がキーボードの上に寝ころんで空リプライしてしまいました</p>&mdash; アンドロメダの異星人 (@nekogeruge_987) <a href="https://twitter.com/nekogeruge_987/statuses/483964371094093824">2014, 7月 1</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="ja"><p><a href="https://twitter.com/nekogeruge_987">@nekogeruge_987</a> にゃー</p>&mdash; Takuto Wada (@t_wada) <a href="https://twitter.com/t_wada/statuses/483964803916898304">2014, 7月 1</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+

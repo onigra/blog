@@ -1,0 +1,40 @@
+---
+categories: CircleCI Docker Serverspec Ansible
+comments: true
+slug: shibuyarb-20150318
+date: 2015-03-19T09:57:02Z
+title: '渋谷.rbでCircleCI、Docker、Serverspec、Ansibleあたりの話をしてきた #shibuyarb'
+
+---
+
+[渋谷.rb[:20150318]](https://shibuyarb.doorkeeper.jp/events/22056)の資料です。
+本当は[AzusaColors](http://sanographix.github.io/azusa-colors/)使おうとしたんですけど、普通のAzusa使うよりもセンスいるなと思って諦めたら[@cyber_yoshida](https://twitter.com/cyber_yoshida)さんの[資料](http://www.slideshare.net/cakeyoshida/rubocop)で使われててセンスの差を感じました。
+
+{% speakerdeck 75cf13355bc1480c8b355b534f6962f4 %}
+
+「インフラのテスト、何やっていいかあんまり思い浮かばない」的な相談したら、
+
+- 新しく作るサーバのテストと動いてるサーバの状態を変えたい時のテストは分けて考えられる
+- 新しく作るサーバのテストはそのぐらいの観点でいいと思う
+- Serverspecとは違うが、動いてるサービスに対してのテストで[ntf](https://github.com/shutterstock/ntf)っていうの使って
+
+などなど、参考になるアドバイスを多くいただけました。ありがとうございます。
+また、Itamae、chefの話が出てAnsibleと比べてどうなの？的な話が出てたので、「Ansibleはchefと比べて学習コスト低い的な風潮あるけど、実際両方やってみてそんな変わらんよ」的なことを言っておきました。
+
+Tweetもされてましたが、Ruby界隈はやっぱりItamae使いはじめてる人、気になってる人が多い印象でした。
+なので、次回のmeetupでAnsibleの話したいとおもってます。
+
+それとは別に、Reactを使ってみてる、気になってるという話も結構聞きました。
+
+# 渋谷Ruby会議02
+
+が企画中みたいですよ。
+
+[https://github.com/shibuyarb/shibuya02](https://github.com/shibuyarb/shibuya02)
+
+# あわせて読みたい
+
+- [itamae + Serverspecで テスト駆動インフラやってみた #shibuyarb](http://sue445.hatenablog.com/entry/2015/03/19/001919)
+- [PumaとUnicornで最近自分が理解したこと](https://speakerdeck.com/ryonext/pumatounicorndezui-jin-zi-fen-gali-jie-sitakoto)
+- [プロジェクトでRubocopを使って自動コードレビューしてみた話](http://www.slideshare.net/cakeyoshida/rubocop)
+
