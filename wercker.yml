@@ -9,10 +9,6 @@ build:
         version: "0.19"
         theme: hucore
         flags: --disableSitemap=true
-    - script:
-        name: copy wercker.yml
-        code: |
-          cp wercker.yml public
 deploy:
   steps:
     - lukevivier/gh-pages:
