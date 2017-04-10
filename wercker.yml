@@ -18,4 +18,4 @@ deploy:
     - lukevivier/gh-pages:
         token: $GITHUB_PERSONAL_ACCESS_TOKEN
         basedir: public
-        repo: onigra/onigra.github.com
+        repo: onigra/onigra.github.io
