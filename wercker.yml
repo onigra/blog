@@ -9,6 +9,11 @@ build:
         version: "0.19"
         theme: hucore
         flags: --disableSitemap=true
+  after-steps:
+      - slack-notifier:
+          url: $WEBHOOK_URL
+          channel: blog
+          username: wercker
 deploy:
   steps:
     - script:
@@ -19,3 +24,8 @@ deploy:
         token: $GITHUB_PERSONAL_ACCESS_TOKEN
         basedir: public
         repo: onigra/onigra.github.io
+  after-steps:
+      - slack-notifier:
+          url: $WEBHOOK_URL
+          channel: blog
+          username: wercker
