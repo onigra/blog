@@ -158,6 +158,10 @@ Software Developer (Server Side Web Application Developer | DevOps) / Bassist
 * [RailsGirlsTokyo第6回コーチ](http://railsgirls.com/tokyo-2016-07-23.html)
   * [プログラミング初心者でも始められるコミュニティへの参加と貢献](https://speakerdeck.com/onigra/puroguraminguchu-xin-zhe-demoshi-merarerukomiyuniteihefalsecan-jia-togong-xian)
 * [RailsGirlsTokyo第7回コーチ](http://railsgirls.com/tokyo)
+* [PHP-CS-FixerとかAtomとか](https://speakerdeck.com/onigra/php-cs-fixertokaatomtoka)
+  * [PHP BLT #6](https://phpblt.connpass.com/event/49458/)
+* [Spring Frameworkと比較して学ぶ、Webアプリケーションフレームワークの責務分割](https://speakerdeck.com/onigra/ginza-ruby-kaigi-01)
+  * [ぎんざRuby会議01](https://ginzarb.github.io/kaigi01/)
 
 ### sns
 
