@@ -1,26 +1,29 @@
 ---
 title: "Netlifyが仕事で使えるか試す"
+comments: true
+slug: try-netlify-on-buisiness
+categories: Netlify
 date: 2018-03-28T23:47:36+09:00
 ---
 
-[Netlify](https://www.netlify.com/)がすごく便利なので仕事で使えそうか検証した結果のメモ。  
+[Netlify](https://www.netlify.com/)がすごく便利なので仕事で使えそうか検証した結果のメモ。
 何ができるかはいくらでも記事があるので書かない。
 
 # 検証した内容
 
 試したいのはいわゆるアクセス制限で、例えばAWSだとS3のBucket Policy使ったりWAF使ったりしてIP制限がかけられるんだけど[^1]、Netlifyには今の所IP制限がかけられない。
 
-その代わりに、[サイトにパスワード認証をかける機能](https://www.netlify.com/docs/visitor-access-control/#password-protection)が用意されている。  
+その代わりに、[サイトにパスワード認証をかける機能](https://www.netlify.com/docs/visitor-access-control/#password-protection)が用意されている。
 しかし、サイト全体にかかってしまうので、[Preview](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/)だけに認証をかけるということができない。既に公開されてるサイトだと問題がある。
 
 回避する手段を考えて、SiteをProductionとStaging用に2つ作って（リポジトリは1つ）Stagingには常にAccess Controlをかけるという方法を試してみたんだけど、Production Branchに対してプルリク作った時に、Previewができてしまう問題がある。
 
 PreviewはいわゆるURL知らないとアクセスできない形式で、組織のセキュリティのレギュレーションによっては許容されるかもしれないけど、今回のお仕事では厳しい。
 
-Preview作成するのを止められればいいんだけど、設定やドキュメントを見た限り見当たらなかった。  
+Preview作成するのを止められればいいんだけど、設定やドキュメントを見た限り見当たらなかった。
 [この辺](https://www.netlify.com/docs/continuous-deployment/#deploy-contexts)見て、 `netlify.toml` で Productionの `site-id` 指定して `context.deploy-preview` の `command` を失敗するようにすればProductionのビルドだけ失敗するかなと思って試してみたけど駄目だった。両方ビルドされてしまう。
 
-最後に、ProductionはGitHubと連携させずに、ビルドしたコンテンツをアップロードするだけという方法でこの問題は回避できた。  
+最後に、ProductionはGitHubと連携させずに、ビルドしたコンテンツをアップロードするだけという方法でこの問題は回避できた。
 しかし、Productionはデプロイの方法を別で作っておかないといけないという面倒なことになってしまう。つらいね。
 
 この方法の注意点は、一度Gitリポジトリを連携させてしまうと、それを解除する方法が（たぶん）無いことである。（変更することはできた）
