@@ -1,5 +1,5 @@
 ---
-title: "Netlifyが仕事で使えるか試す"
+title: "Netlifyが仕事で使えるか試す（追記あり）"
 comments: true
 slug: try-netlify-on-buisiness
 categories: Netlify
@@ -7,8 +7,7 @@ date: 2018-03-28T23:47:36+09:00
 ---
 
 [Netlify](https://www.netlify.com/)がすごく便利なので仕事で使えそうか検証した結果のメモ。  
-何ができるかはいくらでも記事があるので書かない。
-
+何ができるかはいくらでも記事があるので書かない。 
 # 検証した内容
 
 試したいのはいわゆるアクセス制限で、例えばAWSだとS3のBucket Policy使ったりWAF使ったりしてIP制限がかけられるんだけど[^1]、Netlifyには今の所IP制限がかけられない。
@@ -38,6 +37,8 @@ https://5abb071c92226a0b2b358790--onigra-com.netlify.com/
 
 これは `2018-03-28 12:09:01 JST` あたりに公開されたんだけど、この記事書いてる `2018-03-28 23:35:25 JST` の時点ではまだ見えている。
 
+追記1: `2018-03-29 21-05-51 JST` あたりに見たら `Not Found` になっていた。有効期間は24時間ぐらいなのかもしれない。
+
 # まとめ
 
 - NetlifyでホスティングしたサイトでProductionと公開制限をかけたStaging環境を作って運用することはできるけど、ちょっと特殊な方法になる
@@ -57,6 +58,18 @@ https://5abb071c92226a0b2b358790--onigra-com.netlify.com/
 Netlifyでホスティングしてるのはこれ
 
 https://onigra.com/
+
+# 追記2
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">deploy previewを無効にする設定について、試してないんですけどGitHubリポジトリにNetlifyが作ったwebhookからPRのイベントを外せばpreview作らないようにできるかなあと思いました</p>&mdash; みやおか (@miyaoka) <a href="https://twitter.com/miyaoka/status/979277406702718976?ref_src=twsrc%5Etfw">2018年3月29日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">おー、なるほど！ちょっと試してみます！ありがとうございます🙏🏻</p>&mdash; 1540kcal (@onigra_) <a href="https://twitter.com/onigra_/status/979283831139139584?ref_src=twsrc%5Etfw">2018年3月29日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">確かにPRのイベント外せばPreview作られなくなりました！一方で、stgとprdでサイトを分けた場合、stgのPreviewも作られなくなってしまいますね...prdのPulishを手動にして、stgは全てのブランチをデプロイするようにすればやりたいことは実現できそうですが、やっぱり正攻法ではない感じですねー</p>&mdash; 1540kcal (@onigra_) <a href="https://twitter.com/onigra_/status/979348798248951809?ref_src=twsrc%5Etfw">2018年3月29日</a></blockquote>
+
+[@miyaoka](https://twitter.com/miyaoka)さんからPreviewを作成しなくする方法について、Netlifyが作ったWebhookからのPullRequestのイベントを外してみるのはどうかというアドバイスを頂きました。ありがとうございます！ :pray: [soussune](https://soussune.com/)聞きます！
 
 
 [^1]: 実際の所、S3 + CloudFront + WAFだと色々機能不足があり、断念した経緯もあってNetlifyを検証した
