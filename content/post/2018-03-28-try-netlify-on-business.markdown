@@ -69,6 +69,8 @@ https://onigra.com/
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">確かにPRのイベント外せばPreview作られなくなりました！一方で、stgとprdでサイトを分けた場合、stgのPreviewも作られなくなってしまいますね...prdのPulishを手動にして、stgは全てのブランチをデプロイするようにすればやりたいことは実現できそうですが、やっぱり正攻法ではない感じですねー</p>&mdash; 1540kcal (@onigra_) <a href="https://twitter.com/onigra_/status/979348798248951809?ref_src=twsrc%5Etfw">2018年3月29日</a></blockquote>
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">あーなるほど、配信毎にwebhook作られるのかと思ったら同じURLだから同じ設定になっちゃうんですね。うーん確かにちょっとこれだと違いますね</p>&mdash; みやおか (@miyaoka) <a href="https://twitter.com/miyaoka/status/979356175832510464?ref_src=twsrc%5Etfw">2018年3月29日</a></blockquote>
+
 [@miyaoka](https://twitter.com/miyaoka)さんからPreviewを作成しなくする方法について、Netlifyが作ったWebhookからのPullRequestのイベントを外してみるのはどうかというアドバイスを頂きました。ありがとうございます！ :pray: [soussune](https://soussune.com/)聞きます！
 
 
