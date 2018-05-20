@@ -24,6 +24,9 @@ Software Developer (Server Side Web Application Developer | DevOps) / Bassist
 * ShellScript
   * bash
 * SQL
+* JavaScript
+  * Nuxt.js
+  * Jest
 
 #### ミドルウェア
 
@@ -68,6 +71,9 @@ Software Developer (Server Side Web Application Developer | DevOps) / Bassist
 * test-unit
 * Python
 * Go
+* TypeScript
+* FlowType
+* Webpack
 
 #### 好きな技術書
 
