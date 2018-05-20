@@ -6,9 +6,9 @@ build:
         code: |
           $(git clone https://github.com/mgjohansen/hucore ./themes/hucore)
     - arjen/hugo-build:
-        version: "0.19"
+        version: "0.40.3"
         theme: hucore
-        flags: --disableSitemap=true
+        flags: --disableKinds=["sitemap"]
   after-steps:
       - slack-notifier:
           url: $WEBHOOK_URL
