@@ -52,5 +52,5 @@ $ tree .
 
 - （実際無いと思うが）プレゼンテーションのフレームワーク(Vue, React)が変わってもモデルはプレーンなJSなため、疎で良い
   - validationだけ `vee-validate` のフレームワークに則った記法になってるが、実態はただの関数なので許容範囲
-- 実践的で素晴らしい発表をしてくださった[@shinpei0213](https://twitter.com/shinpei0213)には本当に感謝 :pray:
+- 実践的で素晴らしい発表をしてくださった[@shinpei0213](https://twitter.com/shinpei0213)さんには本当に感謝 :pray:
 
