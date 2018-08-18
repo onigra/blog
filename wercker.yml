@@ -4,11 +4,9 @@ build:
     - script:
         name: initialize git submodules
         code: |
-          # $(git clone https://github.com/mgjohansen/hucore ./themes/hucore)
           $(git clone -b patch-1 https://github.com/itaditya/hucore ./themes/hucore)
     - arjen/hugo-build:
         version: "0.47"
-        theme: hucore
         flags: --disableKinds=["sitemap"]
   after-steps:
       - slack-notifier:
