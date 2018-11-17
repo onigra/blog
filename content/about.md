@@ -168,6 +168,9 @@ Software Developer (Server Side Web Application Developer | DevOps) / Bassist
   * [PHP BLT #6](https://phpblt.connpass.com/event/49458/)
 * [Spring Frameworkと比較して学ぶ、Webアプリケーションフレームワークの責務分割](https://speakerdeck.com/onigra/ginza-ruby-kaigi-01)
   * [ぎんざRuby会議01](https://ginzarb.github.io/kaigi01/)
+* [Identiry Provider Keycloak の紹介と、それを用いた Nuxt.js での OpenID Connect 認証機能の実装](https://github.com/onigra/vue-fes-japan-reject-con-demo)
+  * [Vue Fes Japan 2018 Reject Conference](https://vuejs-meetup.connpass.com/event/97557/)
+  * [Vue Fes Japan 2018 Reject Conferenceで発表してきた](https://onigra.github.io/blog/2018/11/12/vue-fes-japan-2018-reject-conference/)
 
 ### sns
 
