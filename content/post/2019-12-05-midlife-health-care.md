@@ -3,7 +3,7 @@ title: "中年が継続的に体調とメンタルを良好に保つノウハウ
 comments: true
 slug: midlife-health-care
 categories: Health
-date: 2019-12-04T00:00:00+09:00
+date: 2019-12-05T00:00:00+09:00
 ---
 
 この記事は[Classi Advent Calendar 2019](https://qiita.com/advent-calendar/2019/classi) 5 日目の記事です。  
@@ -85,6 +85,10 @@ Nike Training Club は無料で、ヨガマットさえあれば負荷の低い�
 
 メンタル面にも効果があります。
 こうして並べてみると、体調面とかぶってる項目も多いので、体調とメンタルには相関があることがよくわかります。
+
+## 人の話を真面目に聞きすぎない
+
+ほどほどに適当に受け流しましょう。
 
 ## その他
 
