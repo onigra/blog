@@ -6,7 +6,7 @@ build:
         code: |
           $(git clone -b patch-1 https://github.com/itaditya/hucore ./themes/hucore)
     - arjen/hugo-build:
-        version: "0.47"
+        version: "0.58.3"
         flags: --disableKinds=["sitemap"]
   after-steps:
       - slack-notifier:
