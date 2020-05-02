@@ -13,7 +13,7 @@ date: 2019-12-05T00:00:00+09:00
 
 # はじめに
 
-{{< tweet 1181738345648377856 >}}
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">朝から「この歳になると継続的に体調を良好に保てるということが重要なスキルセットになりますよね」という話をしてしまった</p>&mdash; カニエ・ウェスト (@onigra_) <a href="https://twitter.com/onigra_/status/1181738345648377856?ref_src=twsrc%5Etfw">October 9, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 30 代も半ばに差し掛かかったこともあり、おっさんの例に漏れず体の衰えを強く実感しています。  
 そして、この歳では「健康」が重要なスキルセットになると自覚するようになりました。
