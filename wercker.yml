@@ -6,13 +6,13 @@ build:
         code: |
           $(git clone -b patch-1 https://github.com/itaditya/hucore ./themes/hucore)
     - arjen/hugo-build:
-        version: "0.58.3"
+        version: "0.69.2"
         flags: --disableKinds=["sitemap"]
   after-steps:
-      - slack-notifier:
-          url: $WEBHOOK_URL
-          channel: blog
-          username: wercker
+    - slack-notifier:
+        url: $WEBHOOK_URL
+        channel: blog
+        username: wercker
 deploy:
   steps:
     - script:
@@ -24,7 +24,7 @@ deploy:
         basedir: public
         repo: onigra/onigra.github.io
   after-steps:
-      - slack-notifier:
-          url: $WEBHOOK_URL
-          channel: blog
-          username: wercker
+    - slack-notifier:
+        url: $WEBHOOK_URL
+        channel: blog
+        username: wercker
