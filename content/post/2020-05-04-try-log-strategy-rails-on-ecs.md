@@ -29,7 +29,7 @@ date: 2020-05-04T00:00:00+09:00
 
 - 環境変数 `RAILS_LOG_TO_STDOUT` を設定すれば STDOUT にログが出る
   - `config/environment/production.rb` にデフォルトで設定が書いてある
-- Unicorn の場合、`RACK_ENV` を `none` にしておかないと `Rack::CommonLogger` が出るので設定しておく
+- Unicorn の場合、`RACK_ENV` を `none` にしておかないと `Rack::CommonLogger` が `use` されて余計なログが出ちゃうので設定しておく
 
 ## Log Format は JSON
 
