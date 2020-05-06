@@ -60,7 +60,7 @@ end
 
 ### その他
 
-- fluent-bit でフィルターするために、ログに識別子を追加しておく
+- フィルターするために、ログに識別子を追加しておく
   - `"{ "service": "rails" }"` みたいな
   - rails は `config.log_tags` に設定するのが楽
   - unicorn は Formatter の lambda の中で設定するのが楽
