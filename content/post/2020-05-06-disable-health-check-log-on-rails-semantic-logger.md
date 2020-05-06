@@ -25,4 +25,19 @@ config.semantic_logger.add_appender(
 )
 ```
 
-firelens の grep exclude とかでやるのでもいいと思う。
+## 追記
+
+なんかpayloadにnilが入ってくる時があるっぽい。あと別に正規表現じゃなくてもいい。
+
+```rb
+config.semantic_logger.add_appender(
+  io: STDOUT,
+  level: config.log_level,
+  formatter: :json,
+  filter: -> log {
+    unless log.payload.nil?
+      log.payload[:path] != "/healthcheck"
+    end
+  }
+)
+```
