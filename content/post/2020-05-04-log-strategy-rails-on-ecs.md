@@ -23,7 +23,7 @@ date: 2020-05-04T00:00:00+09:00
   - STDOUT に両方のログがまとめて出る
 - Log Format は JSON
   - Unicorn のログ も JSON にする
-- ~~ログは FireLens と fluent-bit 使っていい感じに集約する~~
+- ~~ログは FireLens と fluent-bit 使っていい感じに集約する~~ ログは全部CloudWatch Logsに吐いて、その先はKinesis Firehose
 
 ## Rails, Unicorn のログは全部 STDOUT に出す
 
@@ -65,8 +65,11 @@ end
   - rails は `config.log_tags` に設定するのが楽
   - unicorn は Formatter の lambda の中で設定するのが楽
 
-## ~~ログは FireLens と fluent-bit 使っていい感じに集約する~~
+## ~~ログは FireLens と fluent-bit 使っていい感じに集約する~~ ログは全部CloudWatch Logsに吐いて、その先はKinesis Firehose
 
 firelensの送信先をCloudWatch Logsにすれば、の複数のコンテナのログを1つのLog Streamに集約してくれるかと思ったけど、してくれなかった。  
 そういうことがしたい場合、Datadog Logsとかに送った方がいいと思う。  
 まあS3に送ってAthenaで色々やりたいみたいな用途もあるから、firelensの用途は普通にあると思う。
+
+-> 結局、CloudWatch Logsに全部流してCW Logs -> Kinesis Firehose -> S3 <- Athena が楽だと思った。
+あとCW LogsからDatadogに送りたいけど無限に金がかかる。
