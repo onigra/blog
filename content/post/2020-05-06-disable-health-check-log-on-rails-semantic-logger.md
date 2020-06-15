@@ -1,7 +1,7 @@
 ---
 title: "rails_semantic_loggerでヘルスチェックのログを止める"
 comments: true
-slug: dsable-health-check-log-on-rails-semantic-logger
+slug: disable-health-check-log-on-rails-semantic-logger
 categories: rails semantic_logger log
 date: 2020-05-06T00:00:00+09:00
 ---
