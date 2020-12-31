@@ -33,3 +33,4 @@ jobs:
           external_repository: onigra/onigra.github.io
           publish_dir: ./public
           force_orphan: true
+          publish_branch: master
