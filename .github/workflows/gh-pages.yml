@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - migrate_to_github_actions
 
 jobs:
   deploy:
