@@ -7,7 +7,7 @@ url: /about/
 
 ## Onigra(YudaiSuzuki, 旧nekogeruge_987)
 
-<img src='/images/yapc_lt.jpg' height="300" width="450">
+{{< figure src="/images/yapc_lt.jpg" width="300" height="450" >}}
 
 Photo From [YAPC::Asia 2014 | 写真共有・保存サービス 30days Album](http://30d.jp/yapcasia/7)
 
@@ -178,3 +178,10 @@ Software Developer (Server Side Web Application Developer | DevOps) / Bassist
 * [github](https://github.com/onigra)
 * [Qiita](http://qiita.com/users/nekogeruge_987)
 * [Tumblr](http://nekogeruge987.tumblr.com/)
+
+### 意思決定の軸
+
+* 楽になるか
+  * 世の中や物事が楽になるか
+* 金になるか
+* 社会的に正しいか
