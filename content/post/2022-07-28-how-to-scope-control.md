@@ -6,7 +6,7 @@ categories: agile
 date: 2022-07-28T00:00:00+09:00
 ---
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">アジャイル関連で学んだことで、個人的に一番役立ってるのは「スコープの調整」だと思ってるんだけど、人によっては難しいらしく、スコープの調整というスキルを身につけるにあたって必要なものってなんだろうかと最近考えている</p>&mdash; カニエ・ウェスト24歳 (@onigra_) <a href="https://twitter.com/onigra_/status/1552299260460564480?ref_src=twsrc%5Etfw">July 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/onigra_/status/1552299260460564480
 
 他になんかでてきたら更新する
 
