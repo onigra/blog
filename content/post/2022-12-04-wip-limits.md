@@ -89,5 +89,6 @@ A: 行わないことが多いです。
 - [ソフトウェア開発者に必要な考え方](https://speakerdeck.com/soudai/necessary-mindset-for-software-developers)
 
 
+
 Classi developers Advent Calendar 12/5 は [kaori_cho](https://twitter.com/kaori_cho) さんです。どうぞお楽しみに。
 
