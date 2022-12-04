@@ -86,6 +86,7 @@ A: 行わないことが多いです。
 - [始めるのをやめよう。終わらせることを始めよう。](https://techblog.tebiki.co.jp/stop-starting-start-finishing-f601e2b2600e)
 - [エラスティックリーダーシップ ―自己組織化チームの育て方](https://amazon.co.jp/dp/4873118026)
 - [組織デザイン](https://amazon.co.jp/dp/4532110238)
+- [ソフトウェア開発者に必要な考え方](https://speakerdeck.com/soudai/necessary-mindset-for-software-developers)
 
 
 Classi developers Advent Calendar 12/5 は [kaori_cho](https://twitter.com/kaori_cho) さんです。どうぞお楽しみに。
