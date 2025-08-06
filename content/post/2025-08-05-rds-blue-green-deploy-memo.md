@@ -12,6 +12,11 @@ title: RDS Blue Green Deployを使う時に気を付けるポイント
 - 特に、Blue Green Deployだからといって直接ロールバックできるわけではないというのは知っておいた方がいい
 - 夢のシステムではないが、切り替え先のインスタンスをレプリケーションされてる状態で予め用意しておけるのはとても便利なので使った方がいいと思う
 
+## 補足
+
+- MySQLおよびMySQL互換エンジンの話
+    - 試したのはAurora MySQL
+
 ## 参考リンク、引用元
 
 - https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-switching.html
@@ -19,7 +24,7 @@ title: RDS Blue Green Deployを使う時に気を付けるポイント
 
 ## ポイント
 
-- クラスタパラメータグループ `binlog_format` を `ROW` にしないとB/G Deployできない
+- クラスタパラメータグループ `binlog_format` を `ROW` にしないとB/G Deployできない（MySQL互換エンジンの話）
     - 変更してパラメータを適用するにはWriterインスタンスの再起動が必要
 - B/G Deploy用の 新しいクラスタが立つまで結構時間がかかる
     - クラスタ起動するだけなら10分程度だが、データベースバージョンあげるのを含めると20分ぐらいかかった（クラスタ起動後にアップグレードがかかる）
