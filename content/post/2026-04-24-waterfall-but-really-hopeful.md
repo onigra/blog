@@ -16,7 +16,7 @@ date: 2026-04-24T00:00:00+09:00
 - [「Just for Fun」から遠く離れて](https://wirelesswire.jp/2026/04/93383/)
 - [AIもメタクソ化の道を辿るのか、あるいは「普通の技術」に落ち着くか](https://wirelesswire.jp/2025/08/89012/)
 
-そうやって色々悲観的に感じる中で、先日公開された Rebuild Podcast ep 424 "Waterfall But Really Fast (obra)" を聞いて（正確にはTranscriptを読んだ）ちょっと救われた。
+そうやって色々悲観的に感じる中で、先日公開された Rebuild Podcast の ep 424 `Waterfall But Really Fast (obra)` を聞いて（正確にはTranscriptを読んだ）ちょっと救われた。
 
 obra ことJesse Vincent の話を聞くと、AIコーディングで自分が悲観的に感じていることに対して希望になり得るものは  
 XP（extreme programming）のプラクティスであったり、 Hacker マインドであったり、 Geek さであったり、 Pragmatic な考え方であったり、自分がプログラマとして大切にしているものだと感じたからだ。
