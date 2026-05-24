@@ -5,136 +5,29 @@ title: About me
 url: /about/
 ---
 
-## Onigra(YudaiSuzuki, 旧nekogeruge_987)
+## Onigra(Yudai Suzuki, 旧nekogeruge_987)
 
 {{< figure src="/images/yapc_lt.jpg" >}}
 
 Photo From [YAPC::Asia 2014 | 写真共有・保存サービス 30days Album](http://30d.jp/yapcasia/7)
 
-Software Developer (Server Side Web Application Developer | DevOps) / Bassist
+Programmer, DevOps
 
-### スキル(好きな物、業務で使った経験があって割と分かるもの)
+### リンク集
 
-#### 言語
-
-* Ruby
-  * RSpec
-  * Ruby On Rails
-  * Sinatra
-* ShellScript
-  * bash
-* SQL
-* JavaScript
-  * Nuxt.js
-  * Jest
-
-#### ミドルウェア
-
-* MySQL
-* PostgreSQL
-* Redis
-* Nginx
-
-#### エディタ
-
-* vim
-
-#### ツール等
-
-* AWS
-* chef
-* ansible
-* git
-  * github
-* phantomjs
-  * poltergeist
-* selenium
-* zsh
-* vagrant
-* fluentd
-  * td-agent
-  * Treasure Data
-  * HiveQL
-* tmux
-* jenkins
-* wercker
-* CircleCI
-* Docker
-* Serverspec
-
-#### 触ったことはある
-
-* DB2
-* memchached
-* MariaDB
-* hubot
-* test-unit
-* Python
-* Go
-* TypeScript
-* FlowType
-* Webpack
-
-#### 好きな技術書
-
-* たのしいRuby
-* リファクタリングRubyエディション
-* メタプログラミングRuby
-* アジャイルサムライ
-* Joel on Software
-
-#### 好きな言語とかライブラリとかミドルウェアとかメソッドとか
-
-* Ruby
-* SQL
-* Enumerable#map
-* Fluentd
-* peco
-* RSpec
-* Sinatra
-* Git
-* Redis
-* Vim
-* direnv
-* BabaScript
-* Oppai.js
-* Oppai-motion
-
-#### その他(興味の対象)
-
-* ソフトウェア開発プロセス
-  * Agile Software Development
-  * UnitTest
-  * TDD
-  * CI
-  * Scrum
-  * github-flow
-  * ChatOps
-
-##### 参加イベント(興味の対象の参考になれば)
-
+* [onigra.com](https://onigra.com/)
+* [Blog](https://onigra.github.io/)
+* [GitHub](https://github.com/onigra)
+* [Speaker Deck](https://speakerdeck.com/onigra/)
+* [Bluesky](https://bsky.app/profile/onigra.bsky.social)
+* [Twitter](https://twitter.com/onigra_)
+* [Tumblr](http://nekogeruge987.tumblr.com/)
 * [ATND](https://atnd.org/users/75521#join)
 * [Zusaar](http://www.zusaar.com/user/agxzfnp1c2Fhci1ocmRyFgsSBFVzZXIiDDMwMTI0NDk5NV90dww)
+* [connpass](https://connpass.com/user/nekogeruge_987/)
+* [Qiita](http://qiita.com/users/nekogeruge_987)
 
-###### イベントスタッフ
-
-* [Ruby20周年記念パーティー ボランティアスタッフ](http://magazine.rubyist.net/?0042-Ruby20thAnniversaryPartyReport)
-* [YAPC::Asia 2014 ボランティアスタッフ](http://onigra.github.io/blog/2014/08/30/yapc-asia-2014-is-over/)
-
-### 作ったもの
-
-* [String#to_gal](https://github.com/onigra/to_gal)
-* [Array#slice_by_indexes](https://github.com/onigra/slice_by_indexes)
-* [バンドのフライヤー](http://onigra.github.io/blog/2014/07/03/non-designers-design-practice/)
-* [Tsudura](https://github.com/onigra/tsudura)
-* [Planaria](https://github.com/onigra/planaria)
-
-### 書いたもの
-
-* [Rubyist Magazine 0047号 権限管理のgem、Punditの紹介](http://magazine.rubyist.net/?0047-IntroductionToPundit)
-* [Rubyist Magazine 0042号 Ruby 20 周年記念パーティーレポート](http://magazine.rubyist.net/?0042-Ruby20thAnniversaryPartyReport)
-
-### スライドとか発表とか
+### 発表・登壇
 
 * [MySQLへの移行を支える技術](https://speakerdeck.com/onigra/dbyi-xing-wozhi-eruji-shu)
   * [MySQL Casual Talks vol.5](http://www.zusaar.com/event/1086003)でのLT資料
@@ -149,7 +42,7 @@ Software Developer (Server Side Web Application Developer | DevOps) / Bassist
 * [TDD(Twitter Driven Datsu-Syoshinsya) / Twitter駆動脱初心者) #yapcasia](https://speakerdeck.com/onigra/twitterqu-dong-tuo-chu-xin-zhe-number-yapcasia)
   * [YAPC::Asia 2014 LT](http://yapcasia.org/2014/talk/show/84b4d20a-0c8e-11e4-bd05-9c796aeab6a4)
   * [YAPC::Asia 2014 ボランティアスタッフとLTを終えて #yapcasia](http://onigra.github.io/blog/2014/08/30/yapc-asia-2014-is-over/)
-  <iframe width="560" height="315" src="//www.youtube.com/embed/86U8JmFO2Eg" frameborder="0" allowfullscreen></iframe>
+  * [YouTube](https://www.youtube.com/watch?v=86U8JmFO2Eg)
 * [最近やった仕事の話](https://speakerdeck.com/onigra/zui-jin-yatutashi-shi-falsehua-number-shibuyarb)
   * [渋谷.rbでCircleCI、Docker、Serverspec、Ansibleあたりの話をしてきた #shibuyarb](http://onigra.github.io/blog/2015/03/19/shibuyarb-20150318/)
 * [Ansible雑感](https://gist.github.com/onigra/1fd3b6e744bc23071bf3)
@@ -171,17 +64,28 @@ Software Developer (Server Side Web Application Developer | DevOps) / Bassist
 * [Identiry Provider Keycloak の紹介と、それを用いた Nuxt.js での OpenID Connect 認証機能の実装](https://github.com/onigra/vue-fes-japan-reject-con-demo)
   * [Vue Fes Japan 2018 Reject Conference](https://vuejs-meetup.connpass.com/event/97557/)
   * [Vue Fes Japan 2018 Reject Conferenceで発表してきた](https://onigra.github.io/blog/2018/11/12/vue-fes-japan-2018-reject-conference/)
+* [技術書読むの苦手なんですよね](https://gist.github.com/onigra/33b3f293fb7a449bfe63749455ec1d27)
+  * [エンジニアの勉強法ハックLT- vol.10](https://rakus.connpass.com/event/256456/)
+* [ecspressoのおかげで弊社のECS移行が加速してデプロイ頻度も上がりインフラに興味を持つ若者が増えて最高でした](https://speakerdeck.com/onigra/jaws-ug-ecspresso-meetup-20230808)
+  * [JAWS-UG コンテナ支部 #24 ecspresso MeetUp](https://jawsug-container.connpass.com/event/285124/)
+* [第一種低層住居専用地域](https://speakerdeck.com/onigra/di-zhong-di-ceng-zhu-ju-zhuan-yong-di-yu)
+  * [Shinjuku.rb #91 好きなもの紹介LT大会](https://shinjukurb.connpass.com/event/311092/)
+* [オーナーシップは誰のものか プロダクトマネージャーに頼らないプロダクトマネジメントへの挑戦](https://speakerdeck.com/onigra/devsumi-2024-summer)
+  * [Developers Summit 2024 Summer](https://event.shoeisha.jp/devsumi/20240723/session/5135)
+  * [セキュリティインシデントと大規模障害を経て組織改革、オーナーシップとプロダクトマネジメントの未来](https://codezine.jp/article/detail/20131)
+  * [Developers Summit 2024 Summerで登壇してきた](https://onigra.github.io/blog/2024/07/25/devsumi-2024-summer/)
+* [ザ・ゴール](https://speakerdeck.com/onigra/the-goal)
+  * [Shinjuku.rb #95 LT会!心の技術書を紹介しよう!](https://shinjukurb.connpass.com/event/328400/)
+* [カンファレンスプロポーザルの書き方勉強会](https://gist.github.com/onigra/ab1a6fd86b212395ccedf93a0c6fecaa)
+  * [Shinjuku.rb #94 カンファレンスプロポーザルの書き方勉強会](https://shinjukurb.connpass.com/event/324989/)
+  * [Shinjuku.rb #94でカンファレンスプロポーザルの書き方勉強会をやって3人プロポーザルを出して3人採択された](https://onigra.github.io/blog/2024/09/11/shinjukurb-95/)
 
-### sns
+###### イベントスタッフ
 
-* [twitter](https://twitter.com/onigra_)
-* [github](https://github.com/onigra)
-* [Qiita](http://qiita.com/users/nekogeruge_987)
-* [Tumblr](http://nekogeruge987.tumblr.com/)
+* [Ruby20周年記念パーティー ボランティアスタッフ](http://magazine.rubyist.net/?0042-Ruby20thAnniversaryPartyReport)
+* [YAPC::Asia 2014 ボランティアスタッフ](http://onigra.github.io/blog/2014/08/30/yapc-asia-2014-is-over/)
 
-### 意思決定の軸
+### 書いたもの
 
-* 楽になるか
-  * 世の中や物事が楽になるか
-* 金になるか
-* 社会的に正しいか
+* [Rubyist Magazine 0047号 権限管理のgem、Punditの紹介](http://magazine.rubyist.net/?0047-IntroductionToPundit)
+* [Rubyist Magazine 0042号 Ruby 20 周年記念パーティーレポート](http://magazine.rubyist.net/?0042-Ruby20thAnniversaryPartyReport)
