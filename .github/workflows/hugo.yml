@@ -37,6 +37,9 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Checkout theme
+        run: git clone --depth 1 https://github.com/mojoaar/hucore ./themes/hucore
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
