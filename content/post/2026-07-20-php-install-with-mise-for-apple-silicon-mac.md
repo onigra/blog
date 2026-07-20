@@ -47,12 +47,12 @@ mise use -g vfox:mise-plugins/vfox-php@8.5.8
 	- https://mise.jdx.dev/dev-tools/backends/vfox.html
 - なので（2027年6月時点では） `mise-plugins/vfox-php` を使った方が無難そうである
 
-## 補足1: 環境
+## 補足: 環境
 
 - 機種: MacBook Air M1 2020
 - macOS version: 26.5.2（25F84）
 
-### 補足2: Xcode Command Line Tools のインストールしなおし
+### 付録: Xcode Command Line Tools のインストールしなおし
 
 ```
 sudo rm -rf /Library/Developer/CommandLineTools
